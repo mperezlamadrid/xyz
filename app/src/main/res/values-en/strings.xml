@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XYZ</string>
+    <string name="cancelar">Clear</string>
+    <string name="cantidad">Amount of shoes</string>
+    <string name="comprar">Calculate</string>
+    <string name="contidad_l">Count</string>
+    <string name="empresa">XYC Cmpany</string>
+    <string name="error_uno">Can\'t be blank</string>
+    <string name="genero">Gender:</string>
+    <string name="marca">Brand:</string>
+    <string name="tipo">Shoes type:</string>
+    <string name="resultado">Result:</string>
+    <string name="clasico">Classic</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="zapatilla">Slipper</string>
+    <string name="error_dos">Can\'t be zero</string>
+</resources>

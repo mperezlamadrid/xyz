@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">XYZ</string>
+    <string name="empresa">Empresa XYZ</string>
+    <string name="cantidad">Cantidad de zapatos</string>
+    <string name="contidad_l">Cantidad</string>
+    <string name="genero">Genero:</string>
+    <string name="tipo">Tipo de zapato:</string>
+    <string name="marca">Marca:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="comprar">Calcular</string>
+    <string name="resultado">Resultado:</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clasico</string>
+    <string-array name="arr_genero">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+    <string-array name="arr_tipo">
+        <item>@string/zapatilla</item>
+        <item>@string/clasico</item>
+    </string-array>
+    <string-array name="arr_marca">
+        <item>Nike</item>
+        <item>Adidas</item>
+        <item>Puma</item>
+    </string-array>
+    <string name="error_uno">No puede estar vacio</string>
+    <string name="error_dos">No puede ser cero</string>
 </resources>
