@@ -54,32 +54,34 @@ public class Principal extends AppCompatActivity {
             tip = tipo.getSelectedItemPosition();
             mar = marca.getSelectedItemPosition();
 
-            switch (gen) {
+            res = Metodos.calculoTotal(cant, gen, tip, mar);
+
+            /*switch (gen) {
                 case 0:
                     switch (tip) {
                         case 0:
                             switch (mar) {
                                 case 0:
-                                    res = cant * 120000;
+                                    res = Metodos.calcularCantidad(cant, 120000);
                                     break;
                                 case 1:
-                                    res = cant * 140000;
+                                    res = Metodos.calcularCantidad(cant, 140000);
                                     break;
                                 case 2:
-                                    res = cant * 130000;
+                                    res = Metodos.calcularCantidad(cant, 130000);
                                     break;
                             }
                             break;
                         case 1:
                             switch (mar) {
                                 case 0:
-                                    res = cant * 50000;
+                                    res = Metodos.calcularCantidad(cant, 50000);
                                     break;
                                 case 1:
-                                    res = cant * 80000;
+                                    res = Metodos.calcularCantidad(cant, 80000);
                                     break;
                                 case 2:
-                                    res = cant * 100000;
+                                    res = Metodos.calcularCantidad(cant, 100000);
                                     break;
                             }
                             break;
@@ -90,32 +92,32 @@ public class Principal extends AppCompatActivity {
                         case 0:
                             switch (mar) {
                                 case 0:
-                                    res = cant * 100000;
+                                    res = Metodos.calcularCantidad(cant, 100000);
                                     break;
                                 case 1:
-                                    res = cant * 130000;
+                                    res = Metodos.calcularCantidad(cant, 130000);
                                     break;
                                 case 2:
-                                    res = cant * 110000;
+                                    res = Metodos.calcularCantidad(cant, 110000);
                                     break;
                             }
                             break;
                         case 1:
                             switch (mar) {
                                 case 0:
-                                    res = cant * 60000;
+                                    res = Metodos.calcularCantidad(cant, 60000);
                                     break;
                                 case 1:
-                                    res = cant * 70000;
+                                    res = Metodos.calcularCantidad(cant, 70000);
                                     break;
                                 case 2:
-                                    res = cant * 120000;
+                                    res = Metodos.calcularCantidad(cant, 120000);
                                     break;
                             }
                             break;
                     }
                     break;
-            }
+            }*/
         }
 
         resultado.setText("$ " + res);
